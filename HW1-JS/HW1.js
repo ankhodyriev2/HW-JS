@@ -11,18 +11,31 @@
 
 //1.1
 let h = "hello";
+console.log(h);
 let o = "owu";
+console.log(o);
 let m = "com";
+console.log(m);
 let u = "ua";
+console.log(u);
 let na = 1;
+console.log(na);
 let nb = 10;
+console.log(nb);
 let nc = -999;
+console.log(nc);
 let nd = 123;
+console.log(nd);
 let nf = 3.14;
+console.log(nf);
 let nh = 2.7;
+console.log(nh);
 let nj = 16;
+console.log(nj);
 let xz = true;
+console.log(xz);
 let yz = false;
+console.log(yz);
 
 //1.2
 
