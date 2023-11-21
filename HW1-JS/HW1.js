@@ -1,0 +1,53 @@
+//- Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+//    Вивести кожну змінну за допомогою: console.log
+
+//- Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
+
+//- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//    let a = 100; let b = '100'; let c = true;
+
+//Додаткове для тих хто цікавився prompt`oм
+//- За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
+
+//1.1
+let h = "hello";
+let o = "owu";
+let m = "com";
+let u = "ua";
+let na = 1;
+let nb = 10;
+let nc = -999;
+let nd = 123;
+let nf = 3.14;
+let nh = 2.7;
+let nj = 16;
+let xz = true;
+let yz = false;
+
+//1.2
+
+let firstname = "Andriy";
+let middleName = "Oleksandrovych";
+let lastName = "Khodyriev";
+console.log(`${firstname} ${middleName} ${lastName}`);
+
+//1.3
+let a = 100;
+console.log(typeof a);
+
+let b = 100;
+console.log(typeof b);
+
+let c = true;
+console.log(typeof c);
+
+//1.4
+
+let signFN = prompt("What's your firstName?");
+console.log(signFN);
+
+let signMN = prompt("What's your middleName?");
+console.log(signMN);
+
+let age = prompt("How old are you?");
+console.log(age);
